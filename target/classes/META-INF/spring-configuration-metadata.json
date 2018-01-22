@@ -1,0 +1,9 @@
+{
+  "groups": [{
+    "name": "application",
+    "sourceType": "com.soa.app.config.ApplicationProperties",
+    "type": "com.soa.app.config.ApplicationProperties"
+  }],
+  "hints": [],
+  "properties": []
+}

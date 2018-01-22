@@ -1,0 +1,113 @@
+<div>
+    <h2>
+        <span>Absences</span>
+        <button class="btn btn-primary float-right jh-create-entity create-absences" [routerLink]="['/', { outlets: { popup: ['absences-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span >
+            Create new Absences
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+<<<<<<< master
+    
+        <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="header">
+                    <h4 class="title">  Les absents vs les non absents</h4>
+                </div>
+                <div >
+                    <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+
+                    <div class="footer">
+                        <div class="chart-legend">
+                            <i class="fa fa-circle text-info"></i> absent
+                            <i class="fa fa-circle text-danger"></i> present
+                        </div>
+                        <hr>
+                        <div class="stats">
+                            <i class="ti-timer"></i> Campaign sent 2 days ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+=======
+    <div class="row">
+>>>>>>> projectSOA
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="absences">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span>ID</span></th>
+            <th><span>Nb Absences</span></th>
+            <th><span>Etudiant</span></th>
+            <th><span>Matiere</span></th>
+<<<<<<< master
+            <th><span>Pourcentage</span></th>
+            
+=======
+>>>>>>> projectSOA
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let absences of absences ;trackBy: trackId">
+                <td><a [routerLink]="['../absences', absences.id ]">{{absences.id}}</a></td>
+                <td>{{absences.nbAbsences}}</td>
+                <td>
+                    <div *ngIf="absences.possede">
+                        <a [routerLink]="['../etudiant', absences.possede?.id ]" >{{absences.possede?.user?.login}}</a>
+                    </div>
+                </td>
+                <td>
+                    <div *ngIf="absences.associer">
+                        <a [routerLink]="['../matiere', absences.associer?.id ]" >{{absences.associer?.name}}</a>
+                    </div>
+                </td>
+<<<<<<< master
+                <td>{{100*absences.nbAbsences/absences.associer?.nbrSC}}%</td>
+                <td>
+=======
+>>>>>>> projectSOA
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../absences', absences.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'absences/'+ absences.id + '/edit'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'absences/'+ absences.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+<<<<<<< master
+        
+        </table>  
+        </div>
+=======
+        </table>
+  </div>
+>>>>>>> projectSOA
+</div>

@@ -1,0 +1,11 @@
+webpackHotUpdate(2,{
+
+/***/ "./src/main/webapp/app/account/password/password.route.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nvar shared_1 = __webpack_require__(\"./src/main/webapp/app/shared/index.ts\");\r\nvar password_component_1 = __webpack_require__(\"./src/main/webapp/app/account/password/password.component.ts\");\r\nexports.passwordRoute = {\r\n    path: 'password',\r\n    component: password_component_1.PasswordComponent,\r\n    data: {\r\n        authorities: ['ROLE_USER', 'ROLE_ETUDIANT', 'ROLE_ENSEIGNANT'],\r\n        pageTitle: 'Password'\r\n    },\r\n    canActivate: [shared_1.UserRouteAccessService]\r\n};\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbWFpbi93ZWJhcHAvYXBwL2FjY291bnQvcGFzc3dvcmQvcGFzc3dvcmQucm91dGUudHM/NTAwZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBLDRFQUFzRDtBQUN0RCwrR0FBeUQ7QUFFNUMscUJBQWEsR0FBVTtJQUNoQyxJQUFJLEVBQUUsVUFBVTtJQUNoQixTQUFTLEVBQUUsc0NBQWlCO0lBQzVCLElBQUksRUFBRTtRQUNGLFdBQVcsRUFBRSxDQUFDLFdBQVcsRUFBRSxlQUFlLEVBQUUsaUJBQWlCLENBQUM7UUFDOUQsU0FBUyxFQUFFLFVBQVU7S0FDeEI7SUFDRCxXQUFXLEVBQUUsQ0FBQywrQkFBc0IsQ0FBQztDQUN4QyxDQUFDIiwiZmlsZSI6Ii4vc3JjL21haW4vd2ViYXBwL2FwcC9hY2NvdW50L3Bhc3N3b3JkL3Bhc3N3b3JkLnJvdXRlLnRzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUm91dGUgfSBmcm9tICdAYW5ndWxhci9yb3V0ZXInO1xuXG5pbXBvcnQgeyBVc2VyUm91dGVBY2Nlc3NTZXJ2aWNlIH0gZnJvbSAnLi4vLi4vc2hhcmVkJztcbmltcG9ydCB7IFBhc3N3b3JkQ29tcG9uZW50IH0gZnJvbSAnLi9wYXNzd29yZC5jb21wb25lbnQnO1xuXG5leHBvcnQgY29uc3QgcGFzc3dvcmRSb3V0ZTogUm91dGUgPSB7XG4gICAgcGF0aDogJ3Bhc3N3b3JkJyxcbiAgICBjb21wb25lbnQ6IFBhc3N3b3JkQ29tcG9uZW50LFxuICAgIGRhdGE6IHtcbiAgICAgICAgYXV0aG9yaXRpZXM6IFsnUk9MRV9VU0VSJywgJ1JPTEVfRVRVRElBTlQnLCAnUk9MRV9FTlNFSUdOQU5UJ10sXG4gICAgICAgIHBhZ2VUaXRsZTogJ1Bhc3N3b3JkJ1xuICAgIH0sXG4gICAgY2FuQWN0aXZhdGU6IFtVc2VyUm91dGVBY2Nlc3NTZXJ2aWNlXVxufTtcblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyAuL25vZGVfbW9kdWxlcy90c2xpbnQtbG9hZGVyIS4vc3JjL21haW4vd2ViYXBwL2FwcC9hY2NvdW50L3Bhc3N3b3JkL3Bhc3N3b3JkLnJvdXRlLnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/main/webapp/app/account/password/password.route.ts\n");
+
+/***/ })
+
+})
